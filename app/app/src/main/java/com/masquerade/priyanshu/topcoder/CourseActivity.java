@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -28,17 +29,19 @@ public class CourseActivity extends AppCompatActivity{
             }
         });
         CardView obj2 = (CardView) findViewById(R.id.obj2);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        obj2.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent facultyIntent = new Intent(CourseActivity.this, GroupsActivity.class);
-                startActivity(facultyIntent);
+                String LOG_TAG = " hahahah ";
+                Log.v(LOG_TAG,"im inside you");
+                Intent facultyIntent1 = new Intent(CourseActivity.this, ContestActivity.class);
+                startActivity(facultyIntent1);
 
             }
         });
         CardView obj3 = (CardView) findViewById(R.id.obj3);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        obj3.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -48,7 +51,7 @@ public class CourseActivity extends AppCompatActivity{
             }
         });
         CardView obj4 = (CardView) findViewById(R.id.obj4);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        obj4.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -58,7 +61,7 @@ public class CourseActivity extends AppCompatActivity{
             }
         });
         CardView obj5 = (CardView) findViewById(R.id.obj5);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        obj5.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -68,7 +71,7 @@ public class CourseActivity extends AppCompatActivity{
             }
         });
         CardView obj6 = (CardView) findViewById(R.id.obj6);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        obj6.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -77,8 +80,8 @@ public class CourseActivity extends AppCompatActivity{
 
             }
         });
-        CardView obj7 = (CardView) findViewById(R.id.obj1);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        CardView obj7 = (CardView) findViewById(R.id.obj7);
+        obj7.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -87,8 +90,8 @@ public class CourseActivity extends AppCompatActivity{
 
             }
         });
-        CardView obj8 = (CardView) findViewById(R.id.obj7);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        CardView obj8 = (CardView) findViewById(R.id.obj8);
+        obj8.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -97,8 +100,8 @@ public class CourseActivity extends AppCompatActivity{
 
            }
         });
-        CardView obj9 = (CardView) findViewById(R.id.obj8);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        CardView obj9 = (CardView) findViewById(R.id.obj9);
+        obj9.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -108,7 +111,7 @@ public class CourseActivity extends AppCompatActivity{
             }
         });
         CardView obj10 = (CardView) findViewById(R.id.obj10);
-        obj1.setOnClickListener(new View.OnClickListener() {
+        obj10.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {

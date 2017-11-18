@@ -30,6 +30,12 @@
         <activity
             android:name=".GroupsActivity"
             />
+        <activity
+            android:name=".ContestActivity"
+            />
+        <activity
+            android:name=".QuestionActivity"
+            />
     </application>
 
 </manifest>
