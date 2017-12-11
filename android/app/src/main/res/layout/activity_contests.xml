@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contests"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#d3d3d3"
+                app:cardCornerRadius="3dp"
+                android:layout_margin="7dp"
+                android:id="@+id/obj1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC161P : Practical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• LIVE"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#5dc21e"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#d3d3d3"
+                app:cardCornerRadius="3dp"
+                android:layout_margin="7dp"
+                android:id="@+id/obj2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC111 : Electrical Engineering"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• LIVE"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#5dc21e"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#d3d3d3"
+                app:cardCornerRadius="3dp"
+                android:layout_margin="7dp"
+                android:id="@+id/obj3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC151 : Thermodynamics"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9:00 p.m."
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#af111c"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#d3d3d3"
+                app:cardCornerRadius="3dp"
+                android:layout_margin="7dp"
+                android:id="@+id/obj4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC101 : Reverse Engineering"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10:00 p.m."
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#af111c"/>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

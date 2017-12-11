@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Courses"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="#79c26b"
+            app:cardCornerRadius="3dp"
+            android:layout_margin="7dp"
+            android:id="@+id/obj1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC161P : Electrical Engineering"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+
+        </android.support.v7.widget.CardView>
+
+
+                        <android.support.v7.widget.CardView
+                            app:cardBackgroundColor="#ff7b08"
+                            app:cardCornerRadius="3dp"
+                            android:layout_margin="7dp"
+                            android:id="@+id/obj2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp">
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="IC161 : Electrical Engineering"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    android:filterTouchesWhenObscured="false"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp"/>
+
+                        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="#1bb39e"
+            app:cardCornerRadius="3dp"
+            android:layout_margin="7dp"
+            android:id="@+id/obj3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC151 : Mathematics"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="#ff5460"
+            app:cardCornerRadius="3dp"
+            android:layout_margin="7dp"
+            android:id="@+id/obj4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="IC101 : Reverse Engineering"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:filterTouchesWhenObscured="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+
+        </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+

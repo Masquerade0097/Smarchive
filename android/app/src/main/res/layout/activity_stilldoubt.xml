@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your answers are submitted, you'll get the response soon"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Still have some doubts ? "
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#33d468"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/askForum"
+        android:text="Ask In Forum"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchArchive"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:background="#fc5656"
+        android:text="Search In Archive"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#59cbff"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/searchInternet"
+        android:text="Suggestions from Internet"/>
+</LinearLayout>

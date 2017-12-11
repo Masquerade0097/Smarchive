@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.firebase.udacity.friendlychat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImageActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QActivity"
+            android:label=""
+            />
+        <activity
+            android:name=".XActivity"
+            android:label="" />
+
+        <activity android:name=".HomeActivity">
+        </activity>
+        <activity android:name=".CourseActivity"
+            android:label="Forum">
+        </activity>
+        <activity android:name=".GroupsActivity"
+            android:label="IC161P">
+        </activity>
+        <activity android:name=".Group1Activity"
+            android:label="">
+        </activity>
+        <activity android:name=".ContestActivity"
+            android:label="Join Contest">
+        </activity>
+        <activity android:name=".QuestionActivity"
+            android:label="Questions">
+        </activity>
+        <activity android:name=".SatisfiedActivity"
+            android:label="Submitted">
+        </activity>
+        <activity android:name=".ProfileActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:label="B16042">
+        </activity>
+        <activity android:name=".qaActivity"
+            android:label="">
+        </activity>
+        <activity android:name=".qbActivity"
+            android:label="">
+        </activity>
+        <activity android:name=".qcActivity"
+            android:label="">
+        </activity>
+        <activity android:name=".askActivity"
+            android:label="">
+        </activity>
+        <activity android:name=".HostContest"
+            android:label="Host Contest">
+        </activity>
+    </application>
+
+</manifest>
